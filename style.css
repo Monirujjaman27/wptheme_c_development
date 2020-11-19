@@ -1,0 +1,65 @@
+/*
+Theme Name: CareNews
+Text Domain: carnews
+Version: 1.0
+Requires at least: 4.7
+Requires PHP: 5.2.4
+Description: Our advance theme  to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it perfect for traditional blogs. Complete editor styles give you a good idea of what your content will look like, even before you publish. You can give your site a personal touch by changing the background colors and the accent color in the Customizer. The colors of all elements on your site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors.
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Author: Md.Munirujjaman
+Author URI: http://www.designhost.rf.gd
+Theme URI: https://wordpress.org/themes/carenews/
+License: no
+License URI: 
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+3.3 Pagination
+--------------------------------------------------------------*/
+.pagination {
+    border-top: 1px solid #e9e9e9;
+    padding: 35px 0;
+    width: 100%;
+    text-align: center;
+}
+.pagination .nav-links {
+	display: block;
+	padding: 0 25px 15px;
+	position: relative;
+}
+.pagination .page-numbers {
+	background: #e8edf3;
+	border: 1px solid #d3d3d3;
+	color: #444;
+	display: inline-block;
+	font-size: 20px;
+	height: 45px;
+	line-height: 45px;
+	padding: 0 12px;
+	margin-right: 5px;
+}
+.pagination .page-numbers.current {
+	background: #f70009;
+	color: #fff;
+	font-size: 20px;
+	height: 47px;
+	text-align: center;
+	line-height: 47px;
+}
+.pagination .nav-links > a:hover {
+	background: #eb5424;
+	color: #fff;
+	text-decoration: none;
+}
+.screen-reader-text {
+	display: none;
+}
